@@ -8,18 +8,23 @@
     <fragment
         android:id="@+id/navigation_home"
         android:name="com.example.testapp.ui.home.HomeFragment"
-        android:label="@string/title_home"
+        android:label="@string/title_sports"
         tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/navigation_dashboard"
         android:name="com.example.testapp.ui.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard"
+        android:label="@string/title_schedule"
         tools:layout="@layout/fragment_dashboard" />
 
     <fragment
         android:id="@+id/navigation_notifications"
         android:name="com.example.testapp.ui.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
+        android:label="@string/title_alerts"
         tools:layout="@layout/fragment_notifications" />
+    <fragment
+        android:id="@+id/navigation_events"
+        android:name="com.example.testapp.ui.notifications.NotificationsFragment"
+        android:label="@string/title_events"
+        tools:layout="@layout/fragment_events" />
 </navigation>
