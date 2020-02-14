@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/schedule"
+        android:title="@string/title_schedule" />
+
+    <item
+        android:id="@+id/earlyOut"
+        android:title="@string/title_earlyOut" />
+
+    <item
+        android:id="@+id/spotlight"
+        android:title="@string/title_spotlight" />
+</menu>
