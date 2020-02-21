@@ -1,19 +1,19 @@
-package com.example.testapp.ui.notifications;
+package com.example.testapp.ui.schedule;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class NotificationsViewModel extends ViewModel {
+public class ScheduleViewModel extends ViewModel {
 
     private MutableLiveData<String> mText;
 
-    public NotificationsViewModel() {
+    public ScheduleViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is notifications fragment");
+        mText.setValue("This is Schedule fragment");
     }
 
-    public LiveData<String> getText() {
+    public  LiveData<String> getText() {
         return mText;
     }
 }
