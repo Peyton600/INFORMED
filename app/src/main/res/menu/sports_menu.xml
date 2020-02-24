@@ -7,7 +7,7 @@
     <item
         android:id="@+id/earlyOut"
         android:title="@string/title_earlyOut" />
-  **NOe
+
     <item
         android:id="@+id/spotlight"
         android:title="@string/title_spotlight" />
