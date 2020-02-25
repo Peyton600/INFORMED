@@ -21,8 +21,7 @@ import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
 public class MainActivity extends AppCompatActivity {
-    Fragment currentFragment = null;
-    FragmentTransaction ft;
+
 
 
     @Override
@@ -30,62 +29,24 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         BottomNavigationView navView = findViewById(R.id.nav_view);
+
+        // Passing each menu ID as a set of Ids because each
+        // menu should be considered as top level destinations.
+        AppBarConfiguration appBarConfiguration = new AppBarConfiguration.Builder(
+                R.id.navigation_home, R.id.navigation_dashboard, R.id.navigation_alerts, R.id.navigation_schedule)
+                .build();
+        NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
+        NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
+        NavigationUI.setupWithNavController(navView, navController);
+        //loadFragment(new HomeFragment());
         navView.setItemIconTintList(null);
-        ft = getSupportFragmentManager().beginTransaction();
-        currentFragment = new HomeFragment();
-        ft.replace(R.id.nav_host_fragment, currentFragment);
-        ft.commit();
-        //BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.navigation);
-        //        navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
-
-
 
     }
 
 
 
 
-    private BottomNavigationView.OnNavigationItemSelectedListener
-            mOnNavigationItemSelectedListener
-            = new BottomNavigationView.OnNavigationItemSelectedListener(){
 
-
-
-        @Override
-        public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-
-            switch (item.getItemId()) {
-                case R.id.navigation_home:
-                    currentFragment = new HomeFragment();
-                    ft = getSupportFragmentManager().beginTransaction();
-                    ft.replace(R.id.content, currentFragment);
-                    ft.commit();
-                    return true;
-                case R.id.navigation_events:
-                    currentFragment = new EventsFragment();
-                    ft = getSupportFragmentManager().beginTransaction();
-                    ft.replace(R.id.content, currentFragment);
-                    ft.commit();
-                    return true;
-                case R.id.navigation_schedule:
-                    currentFragment = new ScheduleFragment();
-                    ft = getSupportFragmentManager().beginTransaction();
-                    ft.replace(R.id.content, currentFragment);
-                    ft.commit();
-                    return true;
-                case R.id.navigation_dashboard:
-                    currentFragment = new DashboardFragment();
-                    ft = getSupportFragmentManager().beginTransaction();
-                    ft.replace(R.id.content, currentFragment);
-                    ft.commit();
-                    return true;
-
-            }
-
-            return false;
-        }
-
-    };
 
 
 
