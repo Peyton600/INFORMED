@@ -16,20 +16,9 @@ import com.example.testapp.R;
 
 public class EventsFragment extends Fragment {
 
-    private EventsViewModel eventsViewModel;
-
-    public View onCreateView(@NonNull LayoutInflater inflater,
-                             ViewGroup container, Bundle savedInstanceState) {
-        eventsViewModel =
-                ViewModelProviders.of(this).get(EventsViewModel.class);
-        View root = inflater.inflate(R.layout.fragment_events, container, false);
-        final TextView textView = root.findViewById(R.id.text_events);
-        eventsViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
-            @Override
-            public void onChanged(@Nullable String s) {
-                textView.setText(s);
-            }
-        });
-        return root;
+    @Nullable
+    @Override
+    public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+        return inflater.inflate(R.layout.fragment_events, container, false);
     }
 }

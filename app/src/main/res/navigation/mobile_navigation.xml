@@ -15,11 +15,11 @@
         android:id="@+id/navigation_dashboard"
         android:name="com.example.testapp.ui.schedule.ScheduleFragment"
         android:label="@string/title_schedule"
-        tools:layout="@layout/fragment_dashboard" />
+        tools:layout="@layout/fragment_alerts" />
 
     <fragment
         android:id="@+id/navigation_notifications"
-        android:name="com.example.testapp.ui.dashboard.DashboardFragment"
+        android:name="com.example.testapp.ui.alerts.AlertsFragment"
         android:label="@string/title_alerts"
         tools:layout="@layout/fragment_schedule" />
     <fragment
