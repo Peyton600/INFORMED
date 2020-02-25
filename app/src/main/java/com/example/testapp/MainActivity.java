@@ -4,7 +4,8 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import com.example.testapp.ui.dashboard.DashboardFragment;
+import com.example.testapp.ui.alerts.AlertsFragment;
+
 import com.example.testapp.ui.events.EventsFragment;
 import com.example.testapp.ui.home.HomeFragment;
 import com.example.testapp.ui.schedule.ScheduleFragment;
@@ -25,29 +26,47 @@ public class MainActivity extends AppCompatActivity {
 
 
     @Override
+
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        BottomNavigationView navView = findViewById(R.id.nav_view);
 
-        // Passing each menu ID as a set of Ids because each
-        // menu should be considered as top level destinations.
-        AppBarConfiguration appBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.navigation_home, R.id.navigation_dashboard, R.id.navigation_alerts, R.id.navigation_schedule)
-                .build();
-        NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
-        NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
-        NavigationUI.setupWithNavController(navView, navController);
-        //loadFragment(new HomeFragment());
-        navView.setItemIconTintList(null);
+        BottomNavigationView bottomNav = findViewById(R.id.nav_view);
+        bottomNav.setOnNavigationItemSelectedListener(navListener);
+bottomNav.setItemIconTintList(null);
 
+        if (savedInstanceState == null) {
+            getSupportFragmentManager().beginTransaction().replace(R.id.nav_host_fragment,
+                    new HomeFragment()).commit();
+        }
     }
 
+    private BottomNavigationView.OnNavigationItemSelectedListener navListener =
+            new BottomNavigationView.OnNavigationItemSelectedListener() {
+                @Override
+                public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+                    Fragment selectedFragment = null;
 
+                    switch (item.getItemId()) {
+                        case R.id.navigation_sports:
+                            selectedFragment = new HomeFragment();
+                            break;
+                        case R.id.navigation_events:
+                            selectedFragment = new EventsFragment();
+                            break;
+                        case R.id.navigation_alerts:
+                            selectedFragment = new AlertsFragment();
+                            break;
+                        case R.id.navigation_schedule:
+                            selectedFragment = new ScheduleFragment();
+                            break;
+                    }
 
+                    getSupportFragmentManager().beginTransaction().replace(R.id.nav_host_fragment,
+                            selectedFragment).commit();
 
-
-
-
-
+                    return true;
+                }
+            };
 }
