@@ -8,4 +8,13 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="NavigationTheme" parent="AppTheme">
+        <item name="android:textSize">0sp</item>
+        <item name="android:layout_marginRight">100dp</item>
+        <item name="android:layout_marginLeft">100dp
+        </item>
+        <item name="android:minWidth">20dip</item>
+        <item name="android:padding">0dip</item>
+    </style>
+
 </resources>
