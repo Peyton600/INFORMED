@@ -10,25 +10,24 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_margin="20dp"
-            android:text="Home Fragment"
-            android:textAlignment="center"
-            android:textSize="30sp" />
-
         <com.google.android.material.appbar.AppBarLayout
             android:id="@+id/appBarLayout"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@android:color/white">
+            android:layout_height="100dp"
+            android:background="#94504a"
+            >
 
             <com.google.android.material.tabs.TabLayout
                 android:id="@+id/tabLayout"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                app:tabTextColor="@android:color/black">
+                android:layout_height="match_parent"
+                app:tabIndicatorColor="#cfc3c2"
+                app:tabIndicatorGravity="bottom"
+                app:tabIndicatorHeight="10dp"
+                app:tabPaddingEnd="0dp"
+                app:tabPaddingStart="0dp"
+                app:tabTextAppearance="@style/TextAppearance.AppCompat.Large"
+                app:tabTextColor="#cfc3c2">
 
             </com.google.android.material.tabs.TabLayout>
 

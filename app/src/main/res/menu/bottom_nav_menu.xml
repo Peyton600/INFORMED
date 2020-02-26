@@ -5,7 +5,7 @@
         android:id="@+id/navigation_sports"
         android:icon="@drawable/sports_button_transparent"
         android:theme="@style/NavigationTheme"
-        android:title=""
+        android:title="Sports"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         />
@@ -14,7 +14,7 @@
         android:id="@+id/navigation_schedule"
         android:icon="@drawable/sched_button_transparent"
         android:theme="@style/NavigationTheme"
-        android:title=""
+        android:title="Schedule"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="50dp"
@@ -24,7 +24,7 @@
         android:id="@+id/navigation_events"
         android:icon="@drawable/events_button_transparent"
         android:theme="@style/NavigationTheme"
-        android:title=""
+        android:title="Events"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         />
@@ -32,7 +32,7 @@
         android:id="@+id/navigation_alerts"
         android:icon="@drawable/alerts_button_transparent"
         android:theme="@style/NavigationTheme"
-        android:title=""
+        android:title="Alerts"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
          />
