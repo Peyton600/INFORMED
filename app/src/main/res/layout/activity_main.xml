@@ -21,5 +21,6 @@
         android:background="@android:color/white"
         android:padding="10dp"
         app:itemIconSize="50dp"
+        app:labelVisibilityMode="unlabeled"
         app:menu="@menu/bottom_nav_menu" />
         </RelativeLayout> 
