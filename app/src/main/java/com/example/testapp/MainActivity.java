@@ -24,7 +24,6 @@ import androidx.navigation.ui.NavigationUI;
 public class MainActivity extends AppCompatActivity {
 
 
-
     @Override
 
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
 
         BottomNavigationView bottomNav = findViewById(R.id.nav_view);
         bottomNav.setOnNavigationItemSelectedListener(navListener);
-bottomNav.setItemIconTintList(null);
+        bottomNav.setItemIconTintList(null);
 
         if (savedInstanceState == null) {
             getSupportFragmentManager().beginTransaction().replace(R.id.nav_host_fragment,
@@ -68,5 +67,12 @@ bottomNav.setItemIconTintList(null);
 
                     return true;
                 }
+
             };
+
+    private void setDefaultFragment() {
+        FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
+        transaction.replace(R.id.nav_view,HomeFragment.getInstance());
+        transaction.commit();
+    }
 }

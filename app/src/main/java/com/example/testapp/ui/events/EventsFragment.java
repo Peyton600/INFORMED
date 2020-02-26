@@ -15,10 +15,18 @@ import androidx.lifecycle.ViewModelProviders;
 import com.example.testapp.R;
 
 public class EventsFragment extends Fragment {
+    public EventsFragment() {
+        // Required empty public constructor
+    }
 
-    @Nullable
-    @Override
-    public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+    public static EventsFragment getInstance()    {
+        return new EventsFragment();
+    }
+
+
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
+        // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_events, container, false);
     }
 }

@@ -1,7 +1,5 @@
 package com.example.testapp.ui;
 
-import android.content.Context;
-import android.net.Uri;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -14,6 +12,12 @@ import com.example.testapp.R;
 
 
 public class SScheduleFragment extends Fragment {
+    public SScheduleFragment() {
+        // Required empty public constructor
+    }
+
+
+    @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
