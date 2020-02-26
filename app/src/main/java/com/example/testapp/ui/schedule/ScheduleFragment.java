@@ -16,11 +16,18 @@ import com.example.testapp.R;
 
 public class ScheduleFragment extends Fragment {
 
+    public ScheduleFragment() {
+        // Required empty public constructor
+    }
 
+    public static ScheduleFragment getInstance()    {
+        return new ScheduleFragment();
+    }
 
-        @Nullable
-        @Override
-        public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-            return inflater.inflate(R.layout.fragment_schedule, container, false);
-        }
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
+        // Inflate the layout for this fragment
+        return inflater.inflate(R.layout.fragment_schedule, container, false);
+    }
     }

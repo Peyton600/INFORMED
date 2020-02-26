@@ -14,7 +14,9 @@ import androidx.lifecycle.ViewModelProviders;
 
 import com.example.testapp.R;
 
+
 public class EventsFragment extends Fragment {
+
     public EventsFragment() {
         // Required empty public constructor
     }
@@ -23,7 +25,7 @@ public class EventsFragment extends Fragment {
         return new EventsFragment();
     }
 
-
+    @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment

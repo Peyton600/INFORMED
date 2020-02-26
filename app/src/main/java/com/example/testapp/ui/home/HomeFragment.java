@@ -13,8 +13,8 @@ import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 import androidx.viewpager.widget.ViewPager;
 
-import com.example.testapp.Adapter.SectionPagerAdapter;
 import com.example.testapp.R;
+import com.example.testapp.ui.Adapter.SectionPagerAdapter;
 import com.example.testapp.ui.EarlyFragment;
 import com.example.testapp.ui.SScheduleFragment;
 import com.example.testapp.ui.SpotLightFragment;
@@ -22,29 +22,36 @@ import com.google.android.material.tabs.TabLayout;
 
 
 public class HomeFragment extends Fragment {
-        View myFragment;
+    View myFragment;
 
-        ViewPager viewPager;
-        TabLayout tabLayout;
+    ViewPager viewPager;
+    TabLayout tabLayout;
 
 
-        public HomeFragment() {
-            // Required empty public constructor
-        }
+    public HomeFragment() {
+        // Required empty public constructor
+    }
 
-        public static HomeFragment getInstance()    {
-            return new HomeFragment();
-        }
-        @Nullable
-        @Override
-        public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+    public static HomeFragment getInstance()    {
+        return new HomeFragment();
+    }
 
-            myFragment = inflater.inflate(R.layout.fragment_home, container, false);
-            viewPager = myFragment.findViewById(R.id.viewPager);
-            tabLayout = myFragment.findViewById(R.id.tabLayout);
 
-            return myFragment;
-        }
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
+        // Inflate the layout for this fragment
+        myFragment = inflater.inflate(R.layout.fragment_home, container, false);
+
+        viewPager = myFragment.findViewById(R.id.viewPager);
+        tabLayout = myFragment.findViewById(R.id.tabLayout);
+
+        return myFragment;
+    }
+
+    //Call onActivity Create method
+
+
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
@@ -73,11 +80,10 @@ public class HomeFragment extends Fragment {
     private void setUpViewPager(ViewPager viewPager) {
         SectionPagerAdapter adapter = new SectionPagerAdapter(getChildFragmentManager());
 
-        adapter.addFragment(new EarlyFragment(), "EarlyOuts");
-        adapter.addFragment(new SScheduleFragment(), "Sports Schedule");
-        adapter.addFragment(new SpotLightFragment(),"Spotlight");
+        adapter.addFragment(new EarlyFragment(), "Early Outs");
+        adapter.addFragment(new SpotLightFragment(), "Spotlights");
+        adapter.addFragment(new SScheduleFragment(),"Sports Schedules");
 
         viewPager.setAdapter(adapter);
     }
-}
-
+    }
