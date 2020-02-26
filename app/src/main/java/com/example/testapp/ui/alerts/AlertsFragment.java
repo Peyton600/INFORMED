@@ -16,13 +16,19 @@ import com.example.testapp.R;
 
 public class AlertsFragment extends Fragment {
 
+    public AlertsFragment() {
+        // Required empty public constructor
+    }
 
+    public static AlertsFragment getInstance()    {
+        return new AlertsFragment();
+    }
 
-        @Nullable
-        @Override
-        public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-            return inflater.inflate(R.layout.fragment_alerts, container, false);
-            //hiiii
-        }
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
+        // Inflate the layout for this fragment
+        return inflater.inflate(R.layout.fragment_alerts, container, false);
+    }
 
     }

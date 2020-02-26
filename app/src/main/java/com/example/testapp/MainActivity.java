@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.example.testapp.ui.Helper.BottomNavigationViewHelper;
 import com.example.testapp.ui.alerts.AlertsFragment;
 
 import com.example.testapp.ui.events.EventsFragment;
@@ -25,48 +26,53 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+
+    BottomNavigationView bottomNavigationView;
+
     @Override
-
     protected void onCreate(Bundle savedInstanceState) {
-
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        BottomNavigationView bottomNav = findViewById(R.id.nav_view);
-        bottomNav.setOnNavigationItemSelectedListener(navListener);
-bottomNav.setItemIconTintList(null);
+        bottomNavigationView = findViewById(R.id.nav_host_fragment);
+        BottomNavigationViewHelper.disableShiftMode(bottomNavigationView);
+        bottomNavigationView.setItemIconTintList(null);
+        bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
+            @Override
+            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
 
-        if (savedInstanceState == null) {
-            getSupportFragmentManager().beginTransaction().replace(R.id.nav_host_fragment,
-                    new HomeFragment()).commit();
-        }
+                Fragment selectedFragment = null;
+
+                switch (item.getItemId())   {
+                    case R.id.navigation_sports:
+                        selectedFragment = HomeFragment.getInstance();
+                        break;
+
+                    case R.id.navigation_alerts:
+                        selectedFragment = AlertsFragment.getInstance();
+                        break;
+
+                    case R.id.navigation_schedule:
+                        selectedFragment = ScheduleFragment.getInstance();
+                        break;
+
+                    case R.id.navigation_events:
+                        selectedFragment = EventsFragment.getInstance();
+                        break;
+                }
+
+                FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
+                transaction.replace(R.id.nav_view,selectedFragment);
+                transaction.commit();
+                return false;
+            }
+        });
+        setDefaultFragment();
     }
 
-    private BottomNavigationView.OnNavigationItemSelectedListener navListener =
-            new BottomNavigationView.OnNavigationItemSelectedListener() {
-                @Override
-                public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-                    Fragment selectedFragment = null;
-
-                    switch (item.getItemId()) {
-                        case R.id.navigation_sports:
-                            selectedFragment = new HomeFragment();
-                            break;
-                        case R.id.navigation_events:
-                            selectedFragment = new EventsFragment();
-                            break;
-                        case R.id.navigation_alerts:
-                            selectedFragment = new AlertsFragment();
-                            break;
-                        case R.id.navigation_schedule:
-                            selectedFragment = new ScheduleFragment();
-                            break;
-                    }
-
-                    getSupportFragmentManager().beginTransaction().replace(R.id.nav_host_fragment,
-                            selectedFragment).commit();
-
-                    return true;
-                }
-            };
+    private void setDefaultFragment() {
+        FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
+        transaction.replace(R.id.nav_view,HomeFragment.getInstance());
+        transaction.commit();
+    }
 }
