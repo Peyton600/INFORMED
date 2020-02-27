@@ -7,15 +7,6 @@
     tools:context=".ui.EarlyFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:id="@+id/Early"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerInParent="true"
-        android:text="Early Fragment"
-        android:textAlignment="center"
-        android:textSize="30sp" />
 
     <ImageView
         android:id="@+id/imageView"
