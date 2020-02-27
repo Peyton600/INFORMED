@@ -2,14 +2,99 @@
     <string name="app_name">Informed</string>
     <string name="title_events">Events</string>
     <string name="title_sports">Sports</string>
+    <string name="s_tennis">Thursday, February 27 \n
+Home vs CVC ALL \n
+4:00 PM \n  \n
+Tuesday, March 3  \n
+Sunnyside ALL \n
+3:00 PM \n \n
+Friday, March 6 \n
+California HS Tennis Classic TBA V \n
+8:00 AM \n \n
+Saturday, March 7 \n
+California HS Tennis Classic Fresno/Clovis TBA V \n
+8:00 AM \n \n
+Thursday, March 12 \n
+Home vs GW ALL \n
+4:00 PM \n \n
+Friday, March 13 \n
+Visalia Tennis Classic @ RW, GW, ElD, MW V \n
+10:00 AM \n \n
+Saturday, March 14 \n
+Visalia Tennis Classic @ RW, GW, ElD, MW V \n
+10:00 AM \n \n
+Tuesday, March 17 \n
+Home vs Hanford ALL \n
+4:00 PM \n \n
+Thursday, March 19 \n
+El Diamante ALL \n
+4:00 PM \n \n
+Tuesday, March 24 \n
+Home vs Lemoore ALL \n
+4:00 PM \n \n
+Thursday, March 26 \n
+Redwood ALL \n
+4:00 PM \n \n
+Saturday, March 28 \n
+Reedley JV Tournament @ Reedley TBA JV \n
+8:00 AM \n \n
+Tuesday, March 31 \n
+Golden West ALL \n
+4:00 PM \n \n
+Thursday, April 2 \n
+Hanford ALL \n
+4:00 PM \n \n
+Tuesday, April 14 \n
+Home vs El Diamante ALL \n
+4:00 PM \n \n
+Thursday, April 16 \n
+Lemoore ALL \n
+4:00 PM \n \n
+Monday, April 20 \n
+Home vs Redwood ALL \n
+4:00 PM \n \n
+Wednesday, April 22 \n
+WYL- El Diamante Host V \n
+10:00 AM \n \n
+Tuesday, April 28 \n
+Playoffs Team TBA V \n
+4:00 PM \n \n
+Thursday, April 30 \n
+Playoffs Team TBA V \n
+4:00 PM \n \n
+Wednesday, May 6 \n
+Playoffs Team TBA V \n
+4:00 PM \n \n
+Friday, May 8 \n
+Area Championships TBA V TBA \n
+8:00 AM \n \n
+Saturday, May 9 \n
+Area Championships TBA V TBA \n
+8:00 AM \n \n
+Tuesday, May 12 \n
+Playoffs Team TBA V \n
+4:00 PM \n \n
+Friday, May 15 \n
+Valley Playoffs- Individual TBA V TBA \n
+8:00 AM \n \n
+Saturday, May 16 \n
+Valley Playoffs- Individual TBA V TBA \n
+8:00 AM</string>
+    <string name="s_softball">Schedule</string>
+    <string name="s_baseball">Schedule</string>
+    <string name="s_track">Schedule</string>
+    <string name="s_swim">Schedule</string>
+    <string name="s_golf">Schedule</string>
     <string name="title_schedule">Schedule</string>
+
     <string name="title_alerts">Alerts</string>
     <string name="title_spotlight">Spotlight</string>
     <string name="title_earlyOut">Early Outs</string>
-    <string name="softball">Congratulations to the Varsity softball team for improving to 2-0 on the season with a 11-1 victory over Farmersville. McKenzee Huff pitched a 1 hitter with 10 strikeouts.  Offensively, the team had 10 hits and was led by Brooke Riggins 2-3, 3 runs, 2 RBIs, and Kellsi Medeiros 2-2, 2 Runs, 2 RBIs.  The Lady Pioneers travel to San Joaquin Memorial tomorrow and look to stay undefeated on the season.</string>
-<string name="tennis">Congratulations to the varsity boys tennis team who opened the season with a 7-2 win over Exeter.  Winning singles matches were Josue Jara, Ryan Majarian, Isaiah Benitez, and Melvin Macagba. Winning doubles matches were the teams of Hector Villalobos and Jara, Peyton Ray and Majarian, and Andrew Sa and Macagba.  Also, congratulations to the JV team for their 4-1 victory over Exeter.  Next up for the Pioneers is Dinuba today in Dinuba.</string>
-<string name="swim">Congratulations to the Mt. Whitney Boys and Girls swim teams for their victories over Dinuba on Tuesday.  The girls team won all three of their team relays.  Layla Flores and Kloe Schultz led the girls with two 1st Place individual finishes.  Dominique Cho, Evee Schultz, Stephanie Massey and Ellie Applegate each had a 1st Place individual finish.   The boys team won two team relays and were led by Andrew Rozum and Connor Bruton who each had two 1st Place individual finishes.  Travis Applegate, Jacob Canaday and Johnny Northcutt each had a 1st Place individual finish.</string>
+    <string name="softball">Congratulations to the Varsity softball team for improving to 2-0 on the season with a 11-1 victory over Farmersville. McKenzee Huff pitched a 1 hitter with 10 strikeouts.  Offensively,  the team had 10 hits and was led by Brooke Riggins 2-3,  3 runs,  2 RBIs,  and Kellsi Medeiros 2-2,  2 Runs,  2 RBIs.  The Lady Pioneers travel to San Joaquin Memorial tomorrow and look to stay undefeated on the season.</string>
+<string name="tennis">Congratulations to the varsity boys tennis team who opened the season with a 7-2 win over Exeter.  Winning singles matches were Josue Jara,  Ryan Majarian,  Isaiah Benitez,  and Melvin Macagba. Winning doubles matches were the teams of Hector Villalobos and Jara,  Peyton Ray and Majarian,  and Andrew Sa and Macagba.  Also,  congratulations to the JV team for their 4-1 victory over Exeter.  Next up for the Pioneers is Dinuba today in Dinuba.</string>
+<string name="swim">Congratulations to the Mt. Whitney Boys and Girls swim teams for their victories over Dinuba on Tuesday.  The girls team won all three of their team relays.  Layla Flores and Kloe Schultz led the girls with two 1st Place individual finishes.  Dominique Cho,  Evee Schultz,  Stephanie Massey and Ellie Applegate each had a 1st Place individual finish.   The boys team won two team relays and were led by Andrew Rozum and Connor Bruton who each had two 1st Place individual finishes.  Travis Applegate,  Jacob Canaday and Johnny Northcutt each had a 1st Place individual finish.</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="alerts_title">Alerts</string>
 
 </resources>
