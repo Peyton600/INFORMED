@@ -1,17 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ui.SpotLightFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Spotlight Fragment"
-        android:textAlignment="center"
-        android:textSize="30sp"
-        android:layout_centerInParent="true"/>
+
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="30dp">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:shadowColor="@android:color/black"
+                android:shadowDx="1.5"
+                android:shadowDy="1.5"
+                android:shadowRadius=".6"
+                android:text="@string/softball"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:shadowColor="@android:color/black"
+                android:shadowDx="1.5"
+                android:shadowDy="1.5"
+                android:shadowRadius=".6"
+                android:text="@string/swim"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:shadowColor="@android:color/black"
+                android:shadowDx="1.5"
+                android:shadowDy="1.5"
+                android:shadowRadius=".6"
+                android:text="@string/tennis"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
 
 </RelativeLayout>
