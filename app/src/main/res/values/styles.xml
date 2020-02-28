@@ -16,5 +16,8 @@
         <item name="android:minWidth">20dip</item>
         <item name="android:padding">0dip</item>
     </style>
-
+    <style name="AppTheme.CustomTheme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+    </style>
 </resources>

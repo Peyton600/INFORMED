@@ -1,5 +1,6 @@
 package com.example.testapp;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 
@@ -13,22 +14,18 @@ import com.example.testapp.ui.alerts.AlertsFragment;
 import com.example.testapp.ui.events.EventsFragment;
 import com.example.testapp.ui.home.HomeFragment;
 import com.example.testapp.ui.schedule.ScheduleFragment;
-import com.github.sundeepk.compactcalendarview.CompactCalendarView;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
-
-import java.text.SimpleDateFormat;
-import java.util.Locale;
 
 public class MainActivity extends AppCompatActivity {
 
-    CompactCalendarView compactCalendar;
-    private SimpleDateFormat dateFormatMonth = new SimpleDateFormat("MMMM- yyyy", Locale.getDefault());
+
 
 
     BottomNavigationView bottomNavigationView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        startActivity(new Intent(MainActivity.this,Pop.class));
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
