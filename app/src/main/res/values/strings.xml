@@ -80,19 +80,347 @@ Valley Playoffs- Individual TBA V TBA \n
 Saturday, May 16 \n
 Valley Playoffs- Individual TBA V TBA \n
 8:00 AM</string>
-    <string name="s_softball">Schedule</string>
-    <string name="s_baseball">Schedule</string>
-    <string name="s_track">Schedule</string>
-    <string name="s_swim">Schedule</string>
-    <string name="s_golf">Schedule</string>
+    <string name="s_softball">Friday, February 28\n
+Tulare Union JV Tournament @ Tulare Union TBA JV\n
+8:00 AM\n\n
+Saturday, February 29\n
+Tulare Union JV Tournament @ Tulare Union TBA JV\n
+8:00 AM\n\n
+Wednesday, March 4\n
+Golden West JV only\n
+3:30 PM\n\n
+Friday, March 6\n
+Reedley V Tournament TBA V\n
+8:00 AM\n\n
+Saturday, March 7\n
+Reedley V Tournament TBA V\n
+8:00 AM\n\n
+Thursday, March 12\n
+Mira Monte V Tournament @ Mesa Marin Sports Complex TBA V\n
+8:00 AM\n\n
+Friday, March 13\n
+Mira Monte V Tournament @ Mesa Marin Sports Complex TBA V\n
+8:00 AM\n\n
+Saturday, March 14\n
+Mira Monte V Tournament @ Mesa Marin Sports Complex TBA V\n
+8:00 AM\n\n
+Tuesday, March 17\n
+Porterville JV/ V\n
+4:00 PM\n\n
+Friday, March 20\n
+Home vs Madera South JV/ V\n
+4:00 PM\n\n
+Thursday, March 26\n
+Golden West JV/ V\n
+4:30 PM\n\n
+Tuesday, March 31\n
+Hanford JV/ V\n
+4:30 PM\n\n
+Thursday, Apri l2\n
+Home vs El Diamante JV/ V\n
+4:30 PM\n\n
+Saturday, April 4\n
+Tulare Easter Classic @ Tulare Union/ Western TBA V\n
+8:00 AM\n\n
+Monday, April 6\n
+Tulare Easter Classic @ Tulare Union/ Western TBA V\n
+8:00 AM\n\n
+Tuesday, April 14\n
+Lemoore JV/V\n
+4:30 PM\n\n
+Thursday, April 16\n
+Home vs Redwood JV/V\n
+4:30 PM\n\n
+Tuesday, April 21\n
+Home vs GW JV/V\n
+4:30 PM\n\n
+Thursday, April 23\n
+Home vs Hanford JV/ V\n
+4:30 PM\n\n
+Tuesday, April 28\n
+El Diamante JV/ V\n
+4:30 PM\n\n
+Thursday, April 30\n
+Home vs Lemoore JV/ V\n
+4:30 PM\n\n
+Tuesday, May 5\n
+Redwood V/JV\n
+4:30 PM\n\n
+Wednesday, May 13\n
+Playoffs TBA\n
+4:30 PM\n\n
+Friday, May 15\n
+Playoffs TBA V\n
+4:30 PM\n\n
+Wednesday, May 20\n
+Playoffs TBA V\n
+4:30 PM\n\n
+Friday, May 22\n
+Playoffs or May 23 TBA V\n
+4:30 PM</string>
+    <string name="s_baseball">Friday, February 28\n
+Home vs Porterville JV\n
+4:00 PM\n
+Home vs Porterville V\n
+7:00 PM\n\n
+Wednesday, March 4\n
+Home vs Sunnyside JV/V\n
+3:30 PM\n\n
+Tuesday, March 10\n
+Home vs GW ALL\n
+4:15 PM \n\n
+Thursday, March 12\n
+Golden West ALL\n
+4:15 PM\n\n
+Tuesday, March 17\n
+Home vs Hanford JV/V\n
+4:15 PM\n
+Home vs Tulare Western F\n
+4:15 PM\n
+Thursday, March 19\n\n
+Bullard F\n
+3:30 PM\n
+Hanford JV/V\n
+4:15 PM\n\n
+Tuesday, March 24\n
+El Diamante ALL\n
+4:15 PM\n\n
+Thursday, March 26\n
+Home vs El Diamante ALL\n
+4:15 PM\n\n
+Saturday, March 28\n
+Monache F-S Tournament @ Monache F TBA\n
+8:00 AM\n\n
+Tuesday, March 31\n
+Home vs Lemoore F/JV\n
+4:15 PM\n
+Home vs Lemoore V\n
+7:00 PM\n\n
+Thursday, April 2\n
+Lemoore F/JV\n
+4:15 PM\n
+Lemoore V\n
+7:00 PM\n\n
+Saturday, April 4\n
+Monache F-S Tournament @ Monache F TBA\n
+8:00 AM\n
+Sunnyside JV Tournament @ Sunnyside JV TBA\n
+8:00 AM\n\n
+Monday, April 6\n
+Sunnyside JV Tournament @ Sunnyside JV TBA\n
+8:00 AM\n
+Visalia/Tulare Invitational @ MW V TBA\n
+8:00 AM\n\n
+Tuesday, April 7\n
+Sunnyside JV Tournament @ Sunnyside JV TBA\n
+8:00 AM\n
+Visalia/Tulare Invitational @ MW V TBA\n
+8:00 AM\n\n
+Wednesday, April 8\n
+Visalia/Tulare Invitational @ MW V TBA\n
+8:00 AM\n\n
+Tuesday, April 14\n
+Home vs Redwood F/JV\n
+4:15 PM\n
+Home vs Redwood V\n
+7:00 PM\n\n
+Friday, April 17\n
+Redwood @ Redwood JV\n
+4:15 PM\n
+Redwood @ Royal Oaks F\n
+4:15 PM\n
+Redwood @ Recreation Park V\n
+6:00 PM\n\n
+Tuesday, April 21\n
+Home vs GW ALL\n
+4:15 PM\n\n
+Thursday, April 23\n
+Home vs Hanford JV/V\n
+4:15 PM\n
+Home vs Monache F\n
+4:15 PM\n\n
+Tuesday, April 28\n
+El Diamante ALL\n
+4:15 PM\n\n
+Thursday, April 30\n
+Home vs Lemoore F/JV\n
+4:15 PM\n
+Home vs Lemoore V\n
+7:00 PM\n\n
+Tuesday, May 5\n
+Home vs Redwood JV\n
+4:15 PM\n
+Redwood @ Royal Oaks F\n
+4:15 PM\n
+Redwood V\n
+4:15 PM\n\n
+Tuesday, May 12\n
+Playoffs TBA V TBA\n
+8:00 AM\n\n
+Thursday, May 14\n
+Playoffs TBA V TBA\n
+8:00 AM\n\n
+Tuesday, May 19\n
+Playoffs TBA V TBA\n
+8:00 AM\n\n
+Friday, May 22\n
+Playoffs - Finals or May 23 @ Fresno State V TBA\n
+8:00 AM</string>
+    <string name="s_track">Friday, February 28\n
+Buchanan Distance Classic @ Buchanan V\n
+1:00 PM\n\n
+Wednesday, March 4\n
+Home vs Tulare Western ALL\n
+4:00 PM\n\n
+Saturday, March 7\n
+Sanger Spring Classic @ Sanger ALL\n
+9:45 AM\n\n
+Saturday, March 14\n
+Mt Whitney Pioneer Invitational @ Community Stadium ALL\n
+10:00 AM\n\n
+Wednesday, March 18\n
+Exeter/ CVC @ Exeter\n
+4:00 PM\n\n
+Wednesday, March 25\n
+Golden West + El D @ El D ALL\n
+4:00 PM\n\n
+Friday, March 27\n
+Exeter Monarch Invitational @ Exeter ALL\n
+2:00 PM\n\n
+Wednesday, April 1\n
+Redwood ALL\n
+4:00 PM\n\n
+Friday, April 3\n
+Jared Verbeek Memorial Invitational @ MW ALL\n
+4:00 PM\n\n
+Saturday, April 4\n
+West Coast Relays @ Buchanan V\n
+10:00 AM\n\n
+Wednesday, April 15\n
+Home vs Lemoore ALL\n
+4:00 PM\n\n
+Wednesday, April 22\n
+Hanford ALL\n
+4:00 PM\n\n
+Friday, April 24\n
+Tulare County Invitational @ Granite Hills V\n
+4:00 PM\n\n
+Friday, May 1\n
+Battle of Central California @ Buchanan TBA V\n
+8:00 AM\n\n
+Wednesday, May 6\n
+WYL Championship- Mt Whitney host @ Community Stadium V\n
+4:00 PM\n\n
+Wednesday, May 13\n
+East Area Championships @ Exeter V\n
+4:00 PM\n\n
+Saturday, May 23\n
+Central Section Championships @ Buchanan V\n
+4:00 PM\n\n
+Friday, May 29\n\n
+State Meet @ Buchanan V\n
+10:00 AM\n\n
+Saturday, May 30\n
+State Meet @ Buchanan V\n
+10:00 AM</string>
+    <string name="s_swim">Thursday, March 5\n
+Tulare Union- ALL\n
+4:00 PM\n\n
+Thursday, March 12\n
+Home vs Porterville ALL\n
+4:00 PM\n\n
+Thursday, March 19\n
+Home vs GWHS ALL\n
+4:00 PM\n\n
+Saturday, March 21\n
+Golden West Dive Invitational @ GW V\n
+9:30 AM\n\n
+Thursday, March 26\n
+Hanford ALL\n
+4:00 PM\n\n
+Saturday, March 28\n
+Sunnyside Sprint Meet @ Sunnyside V\n
+9:00 AM\n\n
+Thursday, Apri l2\n
+Home vs El Diamante ALL\n
+4:00 PM\n\n
+Thursday, April 16\n
+Lemoore ALL\n
+4:00 PM\n\n
+Thursday, April 23\n
+Home vs Redwood ALL\n
+4:00 PM\n\n
+Tuesday, April 28\n
+WYL Diving- El Diamante Host @ El D V\n
+11:00 AM\n\n
+Wednesday, April 29\n
+WYL Swimming- Lemoore host @ Lemoore V\n
+3:00 PM\n\n
+Thursday, April 30\n
+WYL Swimming- Lemoore Host @ Lemoore V\n
+4:00 PM\n\n
+Thursday, May 7\n
+Diving Championships- Clovis West V\n
+9:00 AM\n\n
+Friday, May 8\n
+Div. 2 Swimming - Clovis West V\n
+9:00 AM\n\n
+Saturday, May 9\n
+Div. 2 Swimming @ Clovis West V\n
+9:00 AM\n\n
+Thursday, May 14\n
+State Diving Meet @ Clovis West V TBA\n
+8:00 AM\n\n
+Friday, May 15\n
+State Meet @ Clovis West V TBA\n
+8:00 AM\n\n
+Saturday, May 16\n
+State Meet @ Clovis West TBA V\n
+8:00 AM</string>
+    <string name="s_golf">Thursday, March 19\n
+El Diamante Host @ Valley Oak Golf Course V\n
+2:00 PM\n\n
+Monday, March 23\n
+Monache 2-Man Best Ball V\n
+10:00 AM\n\n
+Thursday, April 2\n
+Golden West Host @ Valley Oaks Golf Course V\n
+2:00 PM\n\n
+Thursday, April 16\n
+Mt Whitney Host @ Valley Oaks Golf Course V\n
+2:00 PM\n\n
+Monday, April 20\n
+Hanford Host @ Kings Country Club V\n
+2:00 PM\n\n
+Thursday, April 23\n
+Redwood Host @ Valley Oaks Golf Course V\n
+2:00 PM\n\n
+Thursday, April 30\n
+Lemoore Host @ Lemoore Golf Course V\n
+2:00 PM\n\n
+Wednesday, May 6\n
+Area Qualifier- Lemoore Host @ Lemoore Golf Course V\n
+2:00 PM\n\n
+Monday, May 11\n
+Area- Team + Individual @ River Island V\n
+9:00 AM\n\n
+Monday, May 18\n
+Section- Team + Individual TBA V\n
+8:00 AM\n\n
+Tuesday, May 26\n
+So. California Regionals TBA V\n
+8:00 AM\n\n
+Wednesday, June 3\n
+State TBA V\n
+8:00 AM</string>
     <string name="title_schedule">Schedule</string>
 
     <string name="title_alerts">Alerts</string>
     <string name="title_spotlight">Spotlight</string>
     <string name="title_earlyOut">Early Outs</string>
-    <string name="softball">Congratulations to the Varsity softball team for improving to 2-0 on the season with a 11-1 victory over Farmersville. McKenzee Huff pitched a 1 hitter with 10 strikeouts.  Offensively,  the team had 10 hits and was led by Brooke Riggins 2-3,  3 runs,  2 RBIs,  and Kellsi Medeiros 2-2,  2 Runs,  2 RBIs.  The Lady Pioneers travel to San Joaquin Memorial tomorrow and look to stay undefeated on the season.</string>
-<string name="tennis">Congratulations to the varsity boys tennis team who opened the season with a 7-2 win over Exeter.  Winning singles matches were Josue Jara,  Ryan Majarian,  Isaiah Benitez,  and Melvin Macagba. Winning doubles matches were the teams of Hector Villalobos and Jara,  Peyton Ray and Majarian,  and Andrew Sa and Macagba.  Also,  congratulations to the JV team for their 4-1 victory over Exeter.  Next up for the Pioneers is Dinuba today in Dinuba.</string>
-<string name="swim">Congratulations to the Mt. Whitney Boys and Girls swim teams for their victories over Dinuba on Tuesday.  The girls team won all three of their team relays.  Layla Flores and Kloe Schultz led the girls with two 1st Place individual finishes.  Dominique Cho,  Evee Schultz,  Stephanie Massey and Ellie Applegate each had a 1st Place individual finish.   The boys team won two team relays and were led by Andrew Rozum and Connor Bruton who each had two 1st Place individual finishes.  Travis Applegate,  Jacob Canaday and Johnny Northcutt each had a 1st Place individual finish.</string>
+    <string name="softball">Congratulations to the Varsity softball team for improving to 2-0 on the season with a 11-1 victory over Farmersville. McKenzee Huff pitched a 1 hitter with 10 strikeouts.  Offensively, the team had 10 hits and was led by Brooke Riggins 2-3, 3 runs, 2 RBIs, and Kellsi Medeiros 2-2, 2 Runs, 2 RBIs.  The Lady Pioneers travel to San Joaquin Memorial tomorrow and look to stay undefeated on the season.</string>
+<string name="tennis">Congratulations to the varsity boys tennis team who opened the season with a 7-2 win over Exeter.  Winning singles matches were Josue Jara, Ryan Majarian, Isaiah Benitez, and Melvin Macagba. Winning doubles matches were the teams of Hector Villalobos and Jara, Peyton Ray and Majarian, and Andrew Sa and Macagba.  Also, congratulations to the JV team for their 4-1 victory over Exeter.  Next up for the Pioneers is Dinuba today in Dinuba.</string>
+<string name="swim">Congratulations to the Mt. Whitney Boys and Girls swim teams for their victories over Dinuba on Tuesday.  The girls team won all three of their team relays.  Layla Flores and Kloe Schultz led the girls with two 1st Place individual finishes.  Dominique Cho, Evee Schultz, Stephanie Massey and Ellie Applegate each had a 1st Place individual finish.   The boys team won two team relays and were led by Andrew Rozum and Connor Bruton who each had two 1st Place individual finishes.  Travis Applegate,  Jacob Canaday and Johnny Northcutt each had a 1st Place individual finish.</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="alerts_title">Alerts</string>
