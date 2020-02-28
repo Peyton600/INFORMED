@@ -7,4 +7,7 @@
     <string name="title_spotlight">Spotlight</string>
     <string name="title_earlyOut">Early Outs</string>
 
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
 </resources>
