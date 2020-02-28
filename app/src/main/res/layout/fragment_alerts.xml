@@ -6,61 +6,67 @@
 
     <TextView
         android:id="@+id/title"
-        android:layout_width="299dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_centerInParent="false"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="20dp"
         android:background="#672a2b"
         android:fontFamily="@font/amaranth"
+        android:gravity="center_horizontal"
+        android:paddingBottom="10dp"
         android:shadowColor="#000000"
         android:shadowDx="1.5"
         android:shadowDy="1.5"
         android:shadowRadius=".6"
-        android:text="Alerts:"
+        android:text="Alerts"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
-        android:textSize="100sp" />
+        android:textSize="50sp" />
 
     <TextView
         android:id="@+id/textView4"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="250dp"
+        android:background="#C1C1C1"
+        android:padding="10dp"
+        android:text="School Burning!\nMt. Whitney High school has caught fire, and all students are asked to leave the campus. Autoshop caught fire at 4:34PM on Tuesday, March 21st. Autoshop building is expected to not survive the fire. Visalia Fire Department arrived at MWHS at 5:03PM. Fire still burning."
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="215dp"
+        android:layout_height="722dp"
+        android:layout_below="@id/title"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="250dp"
+        android:layout_toRightOf="@id/textView4"
+        android:background="#C1C1C1"
+        android:padding="20dp"
+        app:srcCompat="@drawable/fire" />
+
+    <TextView
+        android:id="@+id/textView20"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/title"
         android:layout_centerHorizontal="true"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="50dp"
-        android:layout_marginRight="20dp"
-        android:background="#672a2b"
-        android:padding="10dp"
-        android:text="School Burning!\nMt. Whitney High school has caught fire, and all students are asked to leave the campus. Autoshop caught fire at 4:34PM on Tuesday, March 21st. Autoshop building is expected to not survive the fire. Visalia Fire Department arrived at MWHS at 5:03PM. Fire still burning."
-        android:textColor="#FFFFFF"
-        android:textSize="40sp" />
+        android:layout_marginTop="750dp"
+        android:fontFamily="@font/amaranth7"
+        android:gravity="center_horizontal"
+        android:text="This is NOT a drill. Leave campus."
+        android:textColor="#FF0000"
+        android:textSize="50dp" />
 
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:layout_marginLeft="250dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginRight="10dp"
-        android:layout_marginBottom="50dp"
-        android:layout_toRightOf="@id/title"
-        android:background="#672a2b"
-        app:srcCompat="@drawable/alerts_button_transparent" />
-
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="match_parent"
-        android:layout_height="300dp"
-        android:layout_below="@id/textView4"
-        android:layout_centerHorizontal="true"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:layout_marginBottom="20dp"
-        android:background="#672a2b"
-        android:paddingBottom="10dp"
-        app:srcCompat="@drawable/fire" />
 </RelativeLayout>
