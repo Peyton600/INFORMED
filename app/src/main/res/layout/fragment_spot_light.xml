@@ -25,7 +25,7 @@
                 android:id="@+id/textView4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="#94504a"
+                android:background="#672a2b"
                 android:padding="3dp"
                 android:paddingTop="2dp"
                 android:shadowColor="#000000"
@@ -33,7 +33,7 @@
                 android:shadowDy="1.5"
                 android:shadowRadius=".6"
                 android:text="SoftBall"
-                android:textColor="#cfc3c2"
+                android:textColor="#FFFF"
                 android:textSize="20sp" />
 
             <TextView
@@ -41,19 +41,20 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingBottom="10dp"
-                android:shadowColor="@android:color/black"
+                android:shadowColor="@android:color/white"
                 android:shadowDx="1.5"
                 android:shadowDy="1.5"
                 android:shadowRadius=".6"
                 android:text="@string/softball"
-                android:textColor="#FFFFFF"
+                android:textColor="#000000"
                 android:textSize="20sp" />
 
             <TextView
                 android:id="@+id/textView5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="#94504a"
+                android:layout_marginTop="25dp"
+                android:background="#672a2b"
                 android:padding="3dp"
                 android:paddingTop="2dp"
                 android:paddingBottom="2dp"
@@ -62,7 +63,7 @@
                 android:shadowDy="1.5"
                 android:shadowRadius=".6"
                 android:text="Swim"
-                android:textColor="#cfc3c2"
+                android:textColor="#FFFF"
                 android:textSize="20sp" />
 
             <TextView
@@ -70,19 +71,20 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingBottom="10dp"
-                android:shadowColor="@android:color/black"
+                android:shadowColor="@android:color/white"
                 android:shadowDx="1.5"
                 android:shadowDy="1.5"
                 android:shadowRadius=".6"
                 android:text="@string/swim"
-                android:textColor="#FFFFFF"
+                android:textColor="#000000"
                 android:textSize="20sp" />
 
             <TextView
                 android:id="@+id/textView6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="#94504a"
+                android:layout_marginTop="20dp"
+                android:background="#672a2b"
                 android:padding="3dp"
                 android:paddingTop="2dp"
                 android:paddingBottom="2dp"
@@ -91,19 +93,19 @@
                 android:shadowDy="1.5"
                 android:shadowRadius=".6"
                 android:text="Tennis"
-                android:textColor="#cfc3c2"
+                android:textColor="#FFFF"
                 android:textSize="20sp" />
 
             <TextView
                 android:id="@+id/textView3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:shadowColor="@android:color/black"
+                android:shadowColor="@android:color/white"
                 android:shadowDx="1.5"
                 android:shadowDy="1.5"
                 android:shadowRadius=".6"
                 android:text="@string/tennis"
-                android:textColor="#FFFFFF"
+                android:textColor="#000000"
                 android:textSize="20sp" />
         </LinearLayout>
     </ScrollView>

@@ -14,20 +14,19 @@
             android:id="@+id/appBarLayout"
             android:layout_width="match_parent"
             android:layout_height="100dp"
-            android:background="#94504a"
-            >
+            android:background="#672a2b">
 
             <com.google.android.material.tabs.TabLayout
                 android:id="@+id/tabLayout"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                app:tabIndicatorColor="#cfc3c2"
+                app:tabIndicatorColor="#FFFFFF"
                 app:tabIndicatorGravity="bottom"
                 app:tabIndicatorHeight="10dp"
                 app:tabPaddingEnd="0dp"
                 app:tabPaddingStart="0dp"
                 app:tabTextAppearance="@style/TextAppearance.AppCompat.Large"
-                app:tabTextColor="#cfc3c2">
+                app:tabTextColor="#FFFFFF">
 
             </com.google.android.material.tabs.TabLayout>
 
