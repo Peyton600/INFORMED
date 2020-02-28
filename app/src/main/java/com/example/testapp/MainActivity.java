@@ -1,30 +1,28 @@
 package com.example.testapp;
 
 import android.os.Bundle;
-import android.view.Menu;
 import android.view.MenuItem;
-
-import com.example.testapp.ui.Helper.BottomNavigationViewHelper;
-import com.example.testapp.ui.alerts.AlertsFragment;
-
-import com.example.testapp.ui.events.EventsFragment;
-import com.example.testapp.ui.home.HomeFragment;
-import com.example.testapp.ui.schedule.ScheduleFragment;
-import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.view.menu.MenuBuilder;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
-import androidx.navigation.NavController;
-import androidx.navigation.Navigation;
-import androidx.navigation.ui.AppBarConfiguration;
-import androidx.navigation.ui.NavigationUI;
+
+import com.example.testapp.ui.Helper.BottomNavigationViewHelper;
+import com.example.testapp.ui.alerts.AlertsFragment;
+import com.example.testapp.ui.events.EventsFragment;
+import com.example.testapp.ui.home.HomeFragment;
+import com.example.testapp.ui.schedule.ScheduleFragment;
+import com.github.sundeepk.compactcalendarview.CompactCalendarView;
+import com.google.android.material.bottomnavigation.BottomNavigationView;
+
+import java.text.SimpleDateFormat;
+import java.util.Locale;
 
 public class MainActivity extends AppCompatActivity {
 
-
+    CompactCalendarView compactCalendar;
+    private SimpleDateFormat dateFormatMonth = new SimpleDateFormat("MMMM- yyyy", Locale.getDefault());
 
 
     BottomNavigationView bottomNavigationView;
@@ -75,4 +73,6 @@ public class MainActivity extends AppCompatActivity {
         transaction.replace(R.id.nav_view,HomeFragment.getInstance());
         transaction.commit();
     }
+
+
 }
