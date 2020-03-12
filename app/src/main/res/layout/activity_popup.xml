@@ -1,43 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="match_parent"
+    android:layout_width="wrap_content"
     android:layout_height="match_parent"
     android:background="@drawable/border_popup"
     android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/textView21"
+    <android.widget.Toolbar
+        android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/title_border_popup"
-        android:fontFamily="@font/amaranth6"
-        android:gravity="center_horizontal"
-        android:padding="25dp"
-        android:text="Welcome to Informed"
-        android:textColor="#FFFFFF"
-        android:textSize="50sp" />
+        android:background="#00FFFFFF"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        android:visibility="visible"
+        app:navigationIcon="@drawable/ic_close_white_24dp" />
 
-    <TextView
-        android:id="@+id/textView22"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:id="@+id/top"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/textView21"
-        android:layout_centerHorizontal="true"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="50dp"
-        android:layout_marginRight="20dp"
-        android:text="Informed is an app designed to help students and faculty alike become better connected to their school. Informed allows you to see the events and activities of your school."
-        android:textColor="#000000"
-        android:textSize="30sp" />
+        android:background="#A8A8A8"
+        android:orientation="horizontal">
 
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/textView22"
-        android:layout_centerInParent="true"
-        android:layout_marginTop="10dp"
-        app:srcCompat="@drawable/trans_informed_logo" />
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="18dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif"
+            android:gravity="center_horizontal"
+            android:text="Informed"
+            android:textColor="#FFFFFF"
+            android:textSize="60sp" />
+    </LinearLayout>
 
 </RelativeLayout>

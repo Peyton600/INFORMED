@@ -4,12 +4,13 @@
     >
     <stroke
         android:color="#000000"
-        android:width="2dp"/>
+        android:width="0dp"/>
     <solid
         android:color="#FFFFFF"/>
     <corners
         android:radius="100dp"
         />
+
 
 
 
