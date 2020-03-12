@@ -9,6 +9,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
 
+import com.example.testapp.dummy.DummyContent;
 import com.example.testapp.ui.Helper.BottomNavigationViewHelper;
 import com.example.testapp.ui.alerts.AlertsFragment;
 import com.example.testapp.ui.events.EventsFragment;
@@ -16,7 +17,8 @@ import com.example.testapp.ui.home.HomeFragment;
 import com.example.testapp.ui.schedule.ScheduleFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity  implements NewsItemFragment.OnListFragmentInteractionListener
+{
 
 
 
@@ -72,4 +74,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+    @Override
+    public void onListFragmentInteraction(DummyContent.DummyItem item) {
+
+    }
 }
