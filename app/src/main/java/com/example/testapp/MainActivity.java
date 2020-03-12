@@ -30,6 +30,8 @@ public class MainActivity extends AppCompatActivity  implements NewsItemFragment
         startActivity(new Intent(MainActivity.this,Pop.class));
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+TextView myTextView = (TextView) findViewById(R.id.)
+
 
         bottomNavigationView = findViewById(R.id.nav_host_fragment);
         BottomNavigationViewHelper.disableShiftMode(bottomNavigationView);
