@@ -424,5 +424,9 @@ State TBA V\n
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="alerts_title">Alerts</string>
+    <string name="date_colom">Date</string>
+    <string name="sports">Sport</string>
+    <string name="teams">Team</string>
+    <string name="excused">Excused</string>
 
 </resources>
